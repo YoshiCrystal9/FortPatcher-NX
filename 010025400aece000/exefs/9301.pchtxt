@@ -1,0 +1,8 @@
+@nsobid-88061807AECA7A91C67E9FCA6D6DA2F6
+#Fortnite 9.30.1
+@flag offset_shift 0x100
+
+//Enable Nifm Lib (9.30.1) [YoshiCrystal]
+@enabled
+01506080 9F021F6B
+01506024 1F2003D5
