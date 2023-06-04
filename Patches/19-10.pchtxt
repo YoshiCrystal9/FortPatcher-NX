@@ -1,0 +1,7 @@
+@nsobid-9BA4584DF2B856B5B3854DB149314494
+#Fortnite 19.10
+@flag offset_shift 0x100
+
+//Enable Nifm Lib (19.10) [YoshiCrystal]
+@enabled
+0000000 1F2003D5
