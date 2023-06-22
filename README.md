@@ -1,5 +1,8 @@
 # FortPatcher-NX
-someone wanted me to make this open sourced so here it is
+
+Play old versions of Fortnite on the Nintendo Switch!
+
+I'm not responsible of any bans caused by these patches.
 
 ## Supported Versions
 
@@ -11,6 +14,12 @@ someone wanted me to make this open sourced so here it is
 
 ### Chapter 2
 
-| 11.0.1 | 12.10 | 12.61 | 19.10 |
-|--------|-------|-------|-------|
-|   ✓    |   ✗   |   ✓   |   ✓   |
+| 11.0.1 | 12.10 | 12.61 |
+|--------|-------|-------|
+|   ?    |   ?   |   ✓   |
+
+### Chapter 3
+
+| 19.10 |
+|--------|
+|   ?    |
