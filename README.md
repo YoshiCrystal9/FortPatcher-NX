@@ -16,10 +16,10 @@ I'm not responsible of any bans caused by these patches.
 
 | 11.0.1 | 12.10 | 12.61 |
 |--------|-------|-------|
-|   ?    |   ?   |   ✓   |
+|   ✓    |   ✓   |   ✓   |
 
 ### Chapter 3
 
 | 19.10 |
 |--------|
-|   ?    |
+|  ✓  |
