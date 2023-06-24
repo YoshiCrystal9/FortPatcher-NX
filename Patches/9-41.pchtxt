@@ -1,0 +1,9 @@
+@nsobid-9A80C54173BD757D1FBA30FD63CD9D27
+#Fortnite 9.41
+@flag offset_shift 0x100
+
+//Enable Nifm Lib (9.41) [YoshiCrystal]
+@enabled
+01AE53DC 9F021F6B
+01AE5358 1F2003D5
+06603CDE "fart"
