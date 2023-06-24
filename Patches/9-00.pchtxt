@@ -1,0 +1,9 @@
+@nsobid-0AC937A7905A16A90061F0FC685EE8A4
+#Fortnite 9.00
+@flag offset_shift 0x100
+
+//Enable Nifm Lib (9.00) [YoshiCrystal]
+@enabled
+013D2740 9F021F6B //BEQ
+013D26E4 1F2003D5 //CBNZ
+05643056 "fart"
