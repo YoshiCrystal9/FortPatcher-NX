@@ -4,6 +4,8 @@ Play old versions of Fortnite on the Nintendo Switch!
 
 I'm not responsible of any bans caused by these patches.
 
+For more info you can join this discord server: https://discord.gg/vut68szyHC
+
 ## Supported Versions
 
 ### Chapter 1
