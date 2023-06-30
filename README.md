@@ -26,6 +26,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 8.51
 - 9.00
 - 9.10
+- 9.20
 - 9.30.1
 - 9.41 (needs fix)
 - 10.10
