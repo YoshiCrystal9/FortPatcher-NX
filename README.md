@@ -44,3 +44,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 
 - 19.10
 - 22.30
+
+### Chapter 4
+
+- 25.10
