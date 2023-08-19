@@ -51,3 +51,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 25.10
 - 25.11
 - 25.20
+
+### Notes for me:
+
+- CBNZ
