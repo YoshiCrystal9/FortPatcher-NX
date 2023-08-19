@@ -38,6 +38,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 11.0.1
 - 12.10
 - 12.61
+- 13.40
 - 14.30
 
 ### Chapter 3
@@ -49,4 +50,4 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 
 - 25.10
 - 25.11
-- 25.29
+- 25.20
