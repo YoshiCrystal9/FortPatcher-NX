@@ -5,4 +5,5 @@
 //Enable Nifm Lib (7.40) [YoshiCrystal]
 @enabled
 01590194 1F2003D5
+015901F8 9F021F6B //beq
 055E3C24 "fart"
