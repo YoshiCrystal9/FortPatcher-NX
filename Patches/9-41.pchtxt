@@ -4,5 +4,5 @@
 
 //Enable Nifm Lib (9.41) [YoshiCrystal]
 @enabled
-01AE5358 1F2003D5
+01AE5354 E0031F2A //cbz + MOV W0, WZR
 06603CDE "fart"
