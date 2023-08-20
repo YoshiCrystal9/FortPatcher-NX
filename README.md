@@ -30,7 +30,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 9.10
 - 9.20
 - 9.30.1
-- 9.41 (needs fix)
+- 9.41
 - 10.10
 - 10.30
 - 10.31
