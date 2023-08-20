@@ -17,10 +17,12 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 5.10.2
 - 5.30.2
 - 5.40
+- 6.10
 - 6.30
 - 6.31
 - 7.10
 - 7.20.1
+- 7.40
 - 8.30.1
 - 8.50
 - 8.51
