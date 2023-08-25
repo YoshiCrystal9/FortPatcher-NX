@@ -8,6 +8,6 @@
 02046990 1F2003D5
 05F69CB0 "fart"
 
-//Use PC save file name instead of Switch, use this if you are using a backend that doesn't support Switch saves (10.40) [YoshiCrystal]
+//Use PC save file name instead of Switch for PC backends (10.40) [YoshiCrystal]
 @enabled
-0335CA64 1F2003D5
+0182C36C 1F2003D5
