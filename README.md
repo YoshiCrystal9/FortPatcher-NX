@@ -18,6 +18,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 5.30.2
 - 5.40
 - 6.10
+- 6.21
 - 6.30
 - 6.31
 - 7.10
@@ -34,6 +35,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 - 10.10
 - 10.30
 - 10.31
+- 10.40
 
 ### Chapter 2
 
