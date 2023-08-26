@@ -7,3 +7,7 @@
 01493430 9F021F6B //BEQ
 014933D4 1F2003D5 //CBNZ
 0576DEE4 "fart"
+
+//Use PC save file name instead of Switch for PC backends (9.20) [YoshiCrystal]
+@enabled
+00D16A28 1F2003D5
