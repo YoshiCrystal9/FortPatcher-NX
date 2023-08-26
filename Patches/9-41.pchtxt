@@ -6,3 +6,7 @@
 @enabled
 01AE5354 E0031F2A //cbz + MOV W0, WZR
 06603CDE "fart"
+
+//Use PC save file name instead of Switch for PC backends (9.41) [YoshiCrystal]
+@enabled
+00F1E108 1F2003D5
