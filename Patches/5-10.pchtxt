@@ -8,3 +8,7 @@
 0137FC54 9F021F6B
 0137FC58 7F021F6B
 04F0594C "fart"
+
+//Use PC save file name instead of Switch for PC backends (5.10) [YoshiCrystal]
+@enabled
+00F3D3C8 1F2003D5
