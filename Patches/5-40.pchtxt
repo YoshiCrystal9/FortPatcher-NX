@@ -4,11 +4,11 @@
 
 //Enable Nifm Lib (5.40) [YoshiCrystal]
 @enabled
-013CA608 E0031F2A //31B8
-013CA6DC 9F021F6B
-013CA6E0 7F021F6B
+013CA8CC E0031F2A //31B8
+013CA9A0 9F021F6B
+013CA9A4 7F021F6B
 050CC6CC "fart"
 
-//UNTESTED Use PC save file name instead of Switch for PC backends (5.40) [YoshiCrystal]
+//Use PC save file name instead of Switch for PC backends (5.40) [YoshiCrystal]
 @enabled
-00F5F174 1F2003D5
+00F5B51C 1F2003D5
