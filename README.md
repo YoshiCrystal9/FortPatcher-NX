@@ -22,6 +22,7 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 5.10.2
 - 5.30.2
 - 5.40
+- 5.41
 - 6.10
 - 6.21
 - 6.30
