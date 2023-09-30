@@ -1,10 +1,15 @@
 # FortPatcher-NX
 
+
 Play old versions of Fortnite on the Nintendo Switch!
 
 I'm not responsible of any bans caused by these patches.
 
 For more info you can join this discord server: https://discord.gg/vut68szyHC
+
+###Disclaimer
+
+This is uncompiled so it won't work as is on Switch! Compile the patches with IPSwitch!
 
 ## Supported Versions
 
