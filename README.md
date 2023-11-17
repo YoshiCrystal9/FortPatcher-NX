@@ -61,6 +61,7 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 25.10
 - 25.11
 - 25.20
+- 27.00
 
 ### Notes for me:
 
