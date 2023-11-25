@@ -1,14 +1,6 @@
-@nsobid-72F228D34BB0C945D9ADF431396F6F81
-#Fortnite 10.00
+@nsobid-A3BDB55ACB1B7A87A8B46303A50B4A13
+# Fortnite 10.00
 @flag offset_shift 0x100
 
-//Enable Nifm Lib (10.00) [YoshiCrystal]
 @enabled
-01F9BEBC 9F021F6B
-01F9BE60 1F2003D5
 05D38BD8 "fart"
-
-//Use PC save file name instead of Switch for PC backends (10.10) [YoshiCrystal]
-@disabled
-//017AB6DC 1F2003D5
-//1E2AA
