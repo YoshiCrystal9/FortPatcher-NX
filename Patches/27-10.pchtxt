@@ -2,6 +2,6 @@
 #Fortnite 27.10
 @flag offset_shift 0x100
 
-//Enable Nifm Lib (27.10) [YoshiCrystal]
+//Change NativePlatformService to fart (27.10) [YoshiCrystal]
 @enabled
 0A1C17F8 "fart"
