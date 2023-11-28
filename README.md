@@ -1,9 +1,9 @@
 # FortPatcher-NX
 
 
-Play old versions of Fortnite on the Nintendo Switch!
+Play old (and new versions if banned) of Fortnite on the Nintendo Switch!
 
-I'm not responsible of any bans caused by these patches.
+I'm not responsible of any console bans or Fortnite account bans caused by these patches.
 
 For more info you can join this discord server: https://discord.gg/vut68szyHC
 
@@ -48,7 +48,7 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 11.0.1
 - 12.10
 - 12.61
-- 13.40
+- 13.40 (Epic backend)
 - 14.30
 
 ### Chapter 3
@@ -56,13 +56,14 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 19.10
 - 22.30
 
-### Chapter 4 (can't use with lawin or epic backend ATM)
+### Chapter 4
 
 - 25.10
 - 25.11
 - 25.20
 - 27.00
+- 27.11 (epic backend)
 
 ### Notes for me:
 
-- CBNZ
+- nativeplatform only
