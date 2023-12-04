@@ -1,0 +1,11 @@
+@nsobid-18093F85178F6040A506D80FC7100E96
+#Fortnite 28.00
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart (28.00) [YoshiCrystal]
+@enabled
+0B6BF674 "fart"
+
+//Change the Switch saving to Android (28.00) [YoshiCrystal]
+@disabled
+079F7850 E15C01F021480191 //NOT PORTED
