@@ -7,5 +7,9 @@
 0B6BF674 "fart"
 
 //Change the Switch saving to Android (28.00) [YoshiCrystal]
-@disabled
-079F7850 E15C01F021480191 //NOT PORTED
+@enabled
+07F5A768 817E01B021C42991
+
+//Change the Switch Matchmaking Platform to Android (28.00) [YoshiCrystal]
+@enabled
+02F7780C A1FD039021C42991
