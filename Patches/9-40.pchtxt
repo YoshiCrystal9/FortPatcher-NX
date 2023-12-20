@@ -1,0 +1,7 @@
+@nsobid-EE266FE6D02B877DF6EB1488DAABAD16
+#Fortnite 9.40
+@flag offset_shift 0x100
+
+//do the stuff(9.40) [YoshiCrystal]
+@enabled
+059B7706 "fart"
