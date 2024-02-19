@@ -1,0 +1,7 @@
+@nsobid-3D0CF9AB5E2761E222D13A2E62AC0018
+#Fortnite 28.20.1
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart (28.01) [YoshiCrystal and Anto]
+@enabled
+0B96CAFA "fart"
