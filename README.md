@@ -63,7 +63,11 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 25.20
 - 27.00
 - 27.11 (epic backend)
+
+### Chapter 5
+
 - 28.20.1
+- 28.30
 
 ### Notes for me:
 
