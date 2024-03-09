@@ -69,6 +69,7 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 - 28.20.1
 - 28.30
 - 29.00
+- 29.001
 
 ### Notes for me:
 
