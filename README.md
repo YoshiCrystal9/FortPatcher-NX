@@ -11,6 +11,10 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 
 This is uncompiled so it won't work as is on Switch! Compile the patches with IPSwitch!
 
+### Tutorial
+
+https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by AntoGamerYT)
+
 ## Supported Versions
 
 ### Chapter 1
@@ -68,8 +72,8 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 
 - 28.20.1
 - 28.30
-- 29.00
-- 29.001
+- 29.00.1
+- 29.01
 
 ### Notes for me:
 
