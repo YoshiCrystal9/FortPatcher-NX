@@ -1,7 +1,10 @@
-// IPS Fortnite Patch Fix by Rangelito
-@nsobid-E694E3120B67CEEEB133501B78CC6D6700000000000000000000000000000000
+@nsobid-E479CAF688ED7107FE1B56137873956700000000000000000000000000000000
 @flag offset_shift 0x100
-
+//IPS patch by Rangelito
+//Thx Nintendosss and Cyan for the help
 //Change NativePlatformService to fart
 @enabled
 0BDF87D6 "fart"
+
+
+
