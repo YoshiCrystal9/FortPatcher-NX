@@ -1,0 +1,6 @@
+@nsobid-D6A3B52B2A1A34BC3471C03034AD373200000000000000000000000000000000
+//IPS patch by MoNeYdEsTrOyEr
+@flag offset_shift 0x100
+//Change NativePlatformService to fart
+@enabled
+0BE93F2C "fart"
