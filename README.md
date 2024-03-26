@@ -74,6 +74,7 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by An
 - 28.30
 - 29.00.1
 - 29.01
+- 29.10
 
 ### Notes for me:
 
