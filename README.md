@@ -13,7 +13,7 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with IP
 
 ### Tutorial
 
-https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by AntoGamerYT)
+https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [Anto](https://github.com/AntogamerYT))
 
 ## Supported Versions
 
