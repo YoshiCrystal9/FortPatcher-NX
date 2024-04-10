@@ -72,9 +72,11 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [A
 
 - 28.20.1
 - 28.30
+- 29.00
 - 29.00.1
 - 29.01
 - 29.10
+- 29.20
 
 ### Notes for me:
 
