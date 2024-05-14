@@ -11,7 +11,7 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 
 This is uncompiled so it won't work as is on Switch! Compile the patches with IPSwitch!
 
-### Tutorial
+### Tutorial on how to make your own patch
 
 https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [Anto](https://github.com/AntogamerYT))
 
