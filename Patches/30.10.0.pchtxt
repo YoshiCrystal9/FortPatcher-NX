@@ -1,0 +1,6 @@
+@nsobid-DEBCD139DE59FEE0D069C7CA2EFF3DED00000000000000000000000000000000
+//nso Patch by Rangelito
+@flag offset_shift 0x100
+//Change NativePlatformService to fart
+@enabled
+0B5E56D6 "fart"
