@@ -83,6 +83,7 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [A
 - 30.00.0
 - 30.00.1
 - 30.10.0
+- 30.20.0
 ### Notes for me:
 
 - nativeplatform only
