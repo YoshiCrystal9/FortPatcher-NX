@@ -10,3 +10,9 @@
 //Use PC save file name instead of Switch for PC backends (13.40) [YoshiCrystal]
 @disabled
 030C23EC 1F2003D5
+
+//Matchmaking fix [YoshiCrystal]
+@enabled
+01A87FF4 76080590D65A2491
+0BB93916 "Ios"				//this is so stupid but it works
+0BB9391A 00000000
