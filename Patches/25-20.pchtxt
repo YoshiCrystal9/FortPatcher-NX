@@ -1,8 +1,0 @@
-@nsobid-603F5778D1FF5E36131A4CA435C590E7
-#Fortnite 25.20
-@flag offset_shift 0x100
-
-//Enable Nifm Lib (25.20) [YoshiCrystal]
-@enabled
-01921D24 1F2003D5
-0DB76DF6 "fart"

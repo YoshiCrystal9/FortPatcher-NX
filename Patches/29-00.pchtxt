@@ -1,6 +1,0 @@
-@nsobid-8CEAA754ACB2B2C97153B54D3182362C00000000000000000000000000000000
-@flag offset_shift 0x100
-
-//Change NativePlatformService to fart
-@enabled
-0BDBAA16 "fart"
