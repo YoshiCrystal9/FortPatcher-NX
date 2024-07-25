@@ -1,0 +1,7 @@
+@nsobid-089B32EDA4BC5546A81B178FFF1E1D37
+// Made by ThisIsAnto
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart
+@enabled
+0B518A20 "fart"
