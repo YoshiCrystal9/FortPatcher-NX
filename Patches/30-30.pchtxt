@@ -5,3 +5,11 @@
 //Change NativePlatformService to fart
 @enabled
 0B518A20 "fart"
+
+// Matchmaking Patch 
+@enabled
+0313c984 61DC039021183D91
+
+// ClientSettings Patch
+@enabled
+07892238 A1A101D021183D91
