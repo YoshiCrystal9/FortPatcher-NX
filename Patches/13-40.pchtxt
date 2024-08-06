@@ -16,3 +16,7 @@
 01A87FF4 76080590D65A2491
 0BB93916 "Ios"				//this is so stupid but it works
 0BB9391A 00000000
+
+//ClientSettings save fix maybe needs test [YoshiCrystal]
+@enabled
+030C23EC 955604B0B55A2491
