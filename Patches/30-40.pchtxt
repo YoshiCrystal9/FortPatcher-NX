@@ -1,0 +1,15 @@
+@nsobid-0E52FEAB18FAA7F27A16F4E46C64464F00000000000000000000000000000000
+// Made by YoshiCrystal
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart
+@enabled
+0B6A28D8 "fart"
+
+// Matchmaking Patch 
+@enabled
+03177358 61E603B021D01F91
+
+// ClientSettings Patch
+@enabled
+07987370 E1A501B021D01F91
