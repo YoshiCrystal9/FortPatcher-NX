@@ -18,6 +18,7 @@ jobs:
       - run: python3 Scripts/pchtxt2ips.py batch Patches Out
       - name: "Publish release"
         uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
         with:
           name: ${{ github.event.head_commit.message }}
           files: ./Out/*.ips
