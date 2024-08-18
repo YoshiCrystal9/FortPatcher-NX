@@ -22,4 +22,6 @@ jobs:
           name: ${{ github.event.head_commit.message }}
           tag_name: v1.0.0
           files: ./Out/*.ips
+        env:
+          GITHUB_TOKEN: ${{github.token}}
         
