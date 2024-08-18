@@ -1,0 +1,15 @@
+@nsobid-D8619819520989AFF4E181EE68EA8E9E00000000000000000000000000000000
+//nso Patch by Rangelito
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart
+@enabled
+0B97BE6C "fart"
+
+//matchmaking patch latest [YoshiCrystal [Rangelito]
+@enabled
+0324160C E1F503F021280B91
+
+//save patch latest [YoshiCrystal] [Rangelito]
+@enabled
+07AABEC4 A1B201B021280B91
