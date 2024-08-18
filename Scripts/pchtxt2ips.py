@@ -119,7 +119,7 @@ if __name__ == "__main__":
             filepath = os.path.join(pchtxt_dir, file)
             pchtxt2ips(filepath, ips_out, True)
         print("Created IPS for every pchtxt!")
-        sys.exit(1)
+        sys.exit(0)
     out_ips_path = sys.argv[2] if len(sys.argv) > 2 else None
     result = pchtxt2ips(pchtxt_path, out_ips_path)
     sys.exit(result)
