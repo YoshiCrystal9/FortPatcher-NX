@@ -4,6 +4,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,7 +35,7 @@ jobs:
       - name: "Create GitHub release"
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{github.token}}
         with:
           tag_name: ${{ env.TAG_NAME }}
           release_name: Release ${{ env.TAG_NAME }}
@@ -41,7 +44,7 @@ jobs:
 
       - name: "Upload individual IPS files to release"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{github.token}}
         run: |
           for file in Out/*.ips; do
             gh release upload ${{ env.TAG_NAME }} "$file" --clobber
@@ -50,4 +53,4 @@ jobs:
       - name: "Upload zip file to release"
         run: gh release upload ${{ env.TAG_NAME }} Out/all_patches.zip --clobber
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{github.token}}
