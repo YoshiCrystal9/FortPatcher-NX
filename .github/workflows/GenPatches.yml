@@ -21,16 +21,12 @@ jobs:
       
       - name: "Create zip of IPS files"
         run: zip -j Out/all_patches.zip Out/*.ips
-      
-      - name: "Get list of IPS files"
-        id: get_ips_files
-        run: echo "files=$(ls Out/*.ips)" >> $GITHUB_ENV
 
       - name: "Upload IPS files to release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for file in ${{ env.files }}; do
+          for file in Out/*.ips; do
             gh release upload ${{ github.event.release.tag_name }} "$file" --clobber
           done
 
