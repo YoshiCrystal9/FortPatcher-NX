@@ -10,17 +10,39 @@ jobs:
     steps:
       - name: "Checkout"
         uses: actions/checkout@v3
+      
       - name: "Setup Python"
         uses: actions/setup-python@v5.1.1
         with:
           python-version: 3.12.0
           architecture: x64
-      - run: python3 Scripts/pchtxt2ips.py batch Patches Out
+      
+      - name: "Compile Patches"
+        run: python3 Scripts/pchtxt2ips.py batch Patches Out
+      
+      - name: "Create zip of IPS files"
+        run: zip -j Out/all_patches.zip Out/*.ips
+      
+      - name: "Upload IPS files to release"
+        run: |
+          for file in Out/*.ips; do
+            gh release upload ${{ github.event.release.tag_name }} "$file" --clobber
+          done
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Upload zip file to release"
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} Out/all_patches.zip --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: "Publish release"
-        uses: softprops/action-gh-release@v2
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          name: ${{ github.event.head_commit.message }}
           tag_name: v1.0.0
-          files: ./Out/*.ips
-          token: ${{github.token}}
-        
+          release_name: ${{ github.event.head_commit.message }}
+          draft: false
+          prerelease: false
