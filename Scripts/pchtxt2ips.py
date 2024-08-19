@@ -1,3 +1,7 @@
+# pchtxt to IPS script, made by Anto, https://github.com/AntogamerYT, https://antogamer.it
+# You're free to use this script for your projects as long as you keep these credits in
+# Imma be honest here i really can't enforce this so, assuming you're a decent and kind human being, please keep them :)
+
 import os
 import struct
 import sys
