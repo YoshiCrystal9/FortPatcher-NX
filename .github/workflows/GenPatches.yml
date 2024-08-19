@@ -17,25 +17,28 @@ jobs:
           python-version: 3.12.0
           architecture: x64
       
-      - name: "Compile Patches"
-        run: python3 Scripts/pchtxt2ips.py batch Patches Out
+      - run: python3 Scripts/pchtxt2ips.py batch Patches Out
       
       - name: "Create zip of IPS files"
         run: zip -j Out/all_patches.zip Out/*.ips
       
+      - name: "Get list of IPS files"
+        id: get_ips_files
+        run: echo "files=$(ls Out/*.ips)" >> $GITHUB_ENV
+
       - name: "Upload IPS files to release"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for file in Out/*.ips; do
+          for file in ${{ env.files }}; do
             gh release upload ${{ github.event.release.tag_name }} "$file" --clobber
           done
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Upload zip file to release"
-        run: |
-          gh release upload ${{ github.event.release.tag_name }} Out/all_patches.zip --clobber
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload ${{ github.event.release.tag_name }} Out/all_patches.zip --clobber
 
       - name: "Publish release"
         uses: actions/create-release@v1
