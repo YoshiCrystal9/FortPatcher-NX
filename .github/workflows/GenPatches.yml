@@ -18,30 +18,36 @@ jobs:
           architecture: x64
       
       - run: python3 Scripts/pchtxt2ips.py batch Patches Out
+
+      - name: "Create dynamic tag name"
+        id: create_tag
+        run: |
+          # Generate a tag name based on the date and short commit hash
+          TAG_NAME="v$(date +'%Y%m%d')-$(git rev-parse --short HEAD)"
+          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
       
       - name: "Create zip of IPS files"
         run: zip -j Out/all_patches.zip Out/*.ips
 
-      - name: "Upload IPS files to release"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          for file in Out/*.ips; do
-            gh release upload ${{ github.event.release.tag_name }} "$file" --clobber
-          done
-
-      - name: "Upload zip file to release"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh release upload ${{ github.event.release.tag_name }} Out/all_patches.zip --clobber
-
-      - name: "Publish release"
+      - name: "Create GitHub release"
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v1.0.0
-          release_name: ${{ github.event.head_commit.message }}
+          tag_name: ${{ env.TAG_NAME }}
+          release_name: Release ${{ env.TAG_NAME }}
           draft: false
           prerelease: false
+
+      - name: "Upload individual IPS files to release"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for file in Out/*.ips; do
+            gh release upload ${{ env.TAG_NAME }} "$file" --clobber
+          done
+
+      - name: "Upload zip file to release"
+        run: gh release upload ${{ env.TAG_NAME }} Out/all_patches.zip --clobber
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
