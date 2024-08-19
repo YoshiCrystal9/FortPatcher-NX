@@ -7,6 +7,11 @@ I'm not responsible of any console bans or Fortnite account bans caused by these
 
 For more info you can join this discord server: https://discord.gg/vut68szyHC
 
+### Downloads
+
+You can download the latest patches on the latest release! There's also an `all_patches.zip` file in the release if you don't want to download all patches manually.
+You can then drag all the ips patches in a folder with a name of your liking in `atmosphere/exefs_patches/`
+
 ### Disclaimer
 
 This is uncompiled so it won't work as is on Switch! Compile the patches with [IPSwitch](https://github.com/3096/ipswitch)!
