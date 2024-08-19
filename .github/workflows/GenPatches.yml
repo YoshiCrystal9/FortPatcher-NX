@@ -13,7 +13,15 @@ jobs:
     steps:
       - name: "Checkout"
         uses: actions/checkout@v3
-      
+        
+      - name: "Check for [NOBUILD] in commit message"
+        id: nobuild_check
+        run: |
+          if [[ "${{ github.event.head_commit.message }}" == *"[NOBUILD]"* ]]; then
+            echo "NOBUILD flag detected, stopping workflow."
+            exit 1
+          fi
+          
       - name: "Setup Python"
         uses: actions/setup-python@v5.1.1
         with:
