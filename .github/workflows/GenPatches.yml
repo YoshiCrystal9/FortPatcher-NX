@@ -36,9 +36,16 @@ jobs:
           # Generate a tag name based on the date and short commit hash
           TAG_NAME="v$(date +'%Y%m%d')-$(git rev-parse --short HEAD)"
           echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
-      
+
+      - name: "Install bsdtar"
+        run: sudo apt-get update && sudo apt-get install -y bsdtar
+
       - name: "Create zip of IPS files"
-        run: zip -j Out/all_patches.zip Out/*.ips
+        run: |
+          mkdir -p tmp/atmosphere/exefs_patches/fortpatcher
+          cp Out/*.ips tmp/atmosphere/exefs_patches/fortpatcher/
+          bsdtar -czf Out/all_patches.zip -C tmp .
+
 
       - name: "Create GitHub release"
         uses: actions/create-release@v1
