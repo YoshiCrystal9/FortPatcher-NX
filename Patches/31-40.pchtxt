@@ -1,0 +1,15 @@
+@nsobid-96A7C4AD480F52CB65E51C5403A87F38
+//nso Patch by Anto
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart
+@enabled
+0B99D0FC "fart"
+
+//matchmaking patch latest [Anto]
+@enabled
+03186B24 A1FB03F021483891
+
+//save patch latest [Anto] 
+@enabled
+079D8C84 21B901B021483891
