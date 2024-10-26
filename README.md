@@ -12,10 +12,6 @@ For more info you can join this discord server: https://discord.gg/vut68szyHC
 You can download the latest patches on the latest release! There's also an `all_patches.zip` file in the release if you don't want to download all patches manually.
 You can then drag all the ips patches in a folder with a name of your liking in `atmosphere/exefs_patches/`
 
-### Disclaimer
-
-This is uncompiled so it won't work as is on Switch! Compile the patches with [IPSwitch](https://github.com/3096/ipswitch)!
-
 ### Tutorial on how to make your own patch
 
 https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [Anto](https://github.com/AntogamerYT))
@@ -93,6 +89,4 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [A
 - 31.00.0
 - 31.10.0
 - 31.20.0
-### Notes for me:
-
-- nativeplatform only
+  (at this point every new version is supported im not updating this anymore)
