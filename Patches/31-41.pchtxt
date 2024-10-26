@@ -10,6 +10,6 @@
 @enabled
 031DF1A0 41F703D021641491
 
-//save patch latest [YoshiCrystal] unfinished
-@disabled
-079D8C84 21B901B021483891
+//save patch latest [YoshiCrystal]
+@enabled
+079875A0 01BA01D021641491
