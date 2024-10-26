@@ -53,7 +53,7 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [A
 - 11.0.1
 - 12.10
 - 12.61
-- 13.40 (Epic backend)
+- 13.40
 - 14.30
 
 ### Chapter 3
