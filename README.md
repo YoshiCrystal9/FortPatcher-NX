@@ -20,14 +20,6 @@ This is uncompiled so it won't work as is on Switch! Compile the patches with [I
 
 https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [Anto](https://github.com/AntogamerYT))
 
-### How to compile the patches
-1. First of all, download ipswitch which is linked above.
-2. Put the .nro in the sd card and switch folder like this: SD/switch/IPSWITCH
-3. Now make a folder inside the IPSWITCH folder and name it FortPatcherNX
-4. Then put all the pchtxt (or just the one version you want) files inside that folder
-5. Boot Homebrew Launcher and launch IPSWITCH.
-6. (TODO i dont have a switch so i cant finish this atm)
-
 ## Supported Versions
 
 ### Chapter 1
