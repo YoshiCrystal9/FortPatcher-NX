@@ -18,6 +18,8 @@ https://gist.github.com/AntogamerYT/c96da191cf293c054c419aba96edbc31 (made by [A
 
 ## Supported Versions
 
+If you have a version that isn't listed here, you can make your own patch with the tutorial linked earlier, or ask me in the discord server to make a patch for it.
+
 | Chapters     | Supported Versions                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------------|
 | **Chapter 1** | 4.4.2, 4.5, 5.10, 5.10.1, 5.10.2, 5.30.2, 5.40, 5.41, 6.10, 6.21, 6.30, 6.31, 7.10, 7.20.1, 7.40, 8.30.1, 8.50, 8.51, 9.00, 9.10, 9.20, 9.30.1, 9.41, 10.10, 10.30, 10.31, 10.40 |
