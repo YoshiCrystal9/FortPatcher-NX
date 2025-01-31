@@ -1,0 +1,15 @@
+@nsobid-09472B3E9FCDE84857E801EFD6C35CB900000000000000000000000000000000 
+// By YoshiCrystal
+@flag offset_shift 0x100
+
+//Change NativePlatformService to fart [YoshiCrystal]
+@enabled
+0C2212F4 "fart"
+
+//matchmaking patch latest [YoshiCrystal]
+@enabled
+0351F544 011e04b021683b91
+
+//save patch latest [YoshiCrystal]
+@enabled
+08017F3C 41c601b021683b91
