@@ -1,0 +1,7 @@
+@nsobid-7D89EA63869E0B03ABBF193E4379362400000000000000000000000000000000
+#Fortnite 26.30.1
+@flag offset_shift 0x100
+
+//Platform Patch [YoshiCrystal]
+@enabled
+0EB93282 "fart"
