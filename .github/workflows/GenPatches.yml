@@ -48,10 +48,15 @@ jobs:
       - name: "Create GitHub release"
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{github.token}}
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           tag_name: ${{ env.TAG_NAME }}
-          release_name: Release ${{ env.TAG_NAME }}
+          release_name: "Release: ${{ github.event.head_commit.message }}"
+          body: |
+            New FortPatcher Release! `${{ github.event.head_commit.message }}`
+            
+            🚀Looking for a fast download to all the patches? Click [here](https://github.com/${{ github.repository }}/releases/download/${{ env.TAG_NAME }}/all_patches.zip)  
+            📂To install, download the zip and drag its content on the root of your SD Card.
           draft: false
           prerelease: false
 
