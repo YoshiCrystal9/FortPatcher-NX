@@ -4,12 +4,12 @@
 
 //Change NativePlatformService to fart [Anto]
 @enabled
-0D2ADB8E "fart"
+0D2ADF2E "fart"
 
 //matchmaking patch latest [Anto]
 @enabled
-02D9D2E0 21dd049021a42c91
+02D9D2E0 21dd049021243b91
 
 //save patch latest [Anto]
 @enabled
-0892B92C a10002d021a42c91
+0892B92C a10002d021243b91
