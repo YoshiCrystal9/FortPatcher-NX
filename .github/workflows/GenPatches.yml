@@ -55,8 +55,8 @@ jobs:
           body: |
             New FortPatcher Release! `${{ github.event.head_commit.message }}`
             
-            🚀Looking for a fast download to all the patches? Click [here](https://github.com/${{ github.repository }}/releases/download/${{ env.TAG_NAME }}/all_patches.zip)  
-            📂To install, download the zip and drag its content on the root of your SD Card.
+            🚀Looking for a fast download to all the patches? Click [here](https://github.com/${{ github.repository }}/releases/download/${{ env.TAG_NAME }}/all_patches.zip)!  
+            📂To install, download the zip and extract its content on the root of your SD Card.
           draft: false
           prerelease: false
 
