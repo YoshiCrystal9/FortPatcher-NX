@@ -5,3 +5,11 @@
 //NSO Login to Token Login Test [YoshiCrystal]
 @enabled
 0C5474D8 "fart"
+
+//Switch Matchmaking to Android [YoshiCrystal]
+@enabled
+028F1958 a194049021040c91
+
+//Switch Save to Andorid [YoshiCrystal]
+@enabled
+08BCA5D0 c17d01f021040c91
