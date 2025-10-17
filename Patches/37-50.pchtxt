@@ -1,0 +1,15 @@
+@nsobid-E0811979FC26AA889B6EC373B588642E00000000000000000000000000000000
+// By YoshiCrystal
+@flag offset_shift 0x100
+
+//NSO Login to Token Login Test [YoshiCrystal]
+@enabled
+0C55D96E "fart"
+
+//Switch Matchmaking to Android [YoshiCrystal]
+@enabled
+02956628 a19104d021580091
+
+//Switch Save to Andorid [YoshiCrystal]
+@enabled
+08B3E9EC 618201d021580091
