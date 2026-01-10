@@ -1,0 +1,7 @@
+@nsobid-492CEEEF7A03CF1B3F08436311C4557200000000000000000000000000000000 
+// By YoshiCrystal
+@flag offset_shift 0x100
+
+// thing for 4.3.0
+@enabled
+04F54F86 "fart"
