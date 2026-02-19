@@ -60,14 +60,6 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: "Upload individual IPS files to release"
-        env:
-          GITHUB_TOKEN: ${{github.token}}
-        run: |
-          for file in Out/*.ips; do
-            gh release upload ${{ env.TAG_NAME }} "$file" --clobber
-          done
-
       - name: "Upload zip file to release"
         run: gh release upload ${{ env.TAG_NAME }} Out/all_patches.zip --clobber
         env:
